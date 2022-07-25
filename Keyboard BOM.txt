@@ -1,0 +1,12 @@
+Keyboard BOM
+
+Micro+Wireless
+NRF5340-QKAA
+
+
+USB - C
+Protection - TPD2S300
+Controller - TUSB320LAI
+
+Battery charger
+BQ25798
