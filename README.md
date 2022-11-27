@@ -26,11 +26,12 @@ The Keymaster5000 aims to be the most over the top, feature packed keybaord in e
 - Assignable Touch sensitive strip on Numberpad and Core Module
 
 ## Display Module
-This is where we get clever.  The display module integrates a multitouch display, a smart display knob, based off of the [design from Scott Bezek](https://github.com/scottbez1/smartknob), a quad core [TI AM625](https://www.ti.com/product/AM625) to run the displays and other computationally intense tasks and a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340) to handle all the wireless tasks.
+This is where we get clever.  The display module integrates a multitouch display, a smart display knob, based off of the [design from Scott Bezek](https://github.com/scottbez1/smartknob) with a couple of tweaks, a quad core [TI AM625](https://www.ti.com/product/AM625) to run the displays and other computationally intense tasks and a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340) to handle all the wireless tasks.
 This module includes two 18650 3500mAh Cells for power, and can be charged over USB, or when connected to the Core.
 
 ## Numberpad Module
 This Module is probably the most boring, just a full size number pad with four function keys and a touch strip down the side. It is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 21 matrix, with a scan rate based on that of the I2C clock speed.
+This module includes two 18650 3500mAh Cells for power, and can be charged over USB, or when connected to the Core.
 
 ## Core Module
 This is the heart of Keymaster, it is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 100 matrix, with a scan rate based on that of the I2C clock speed, meaning the entire keyboard can be read at speeds up to 1MHz, which results in all 100 keys being read every 0.1ms.  Speedy huh?
