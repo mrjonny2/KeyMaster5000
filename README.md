@@ -30,10 +30,10 @@ This is where we get clever.  The display module integrates a multitouch display
 This module includes two 18650 3500mAh Cells for power, and can be charged over USB, or when connected to the Core.
 
 ## Numberpad Module
-This Module is probably the most boring, just a full size number pad with four function keys and a touch strip down the side. It is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 21 matrix, with a scan rate based on that of the  clock speed.
+This Module is probably the most boring, just a full size number pad with four function keys and a touch strip down the side. It is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 21 matrix, with a scan rate based on that of the clock speed.
 This module includes two 18650 3500mAh Cells for power, and can be charged over USB, or when connected to the Core.
 
 ## Core Module
-This is the heart of Keymaster, it is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 100 matrix, with a scan rate based on that of the clock speed, meaning the entire keyboard can be read at speeds up to 1MHz, which results in all 100 keys being read every 0.1ms.  Speedy huh?
+This is the heart of Keymaster, it is based off of a dual core [Nordic Semi nRF5340](https://www.nordicsemi.com/products/nrf5340). The use of level shift registers allows the entire keyboard to be laid out in a 1 by 100 matrix, with a scan rate based on that of the clock speed, meaning the entire keyboard can be read at speeds up to 12.5MHz, but, assuming a clock speed of 1MHz results in all 100 keys being read every 0.1ms.  Speedy huh?
 This module includes six 18650 3500mAh Cells for power, and can be charged over USB and can charge the display and Numberpad modules when connected together.
 As for the key layout, the keyboard uses a full size layout with arrow keys and three switches to allow fast switcing between devices, meaning you can pair your keyboard with 3 PCs and then instantly have all the modules switch from one device to the next.  It also includes a touch strip at the base of the keyboard to do whatever you want really.
