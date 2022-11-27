@@ -9,7 +9,7 @@ The Keymaster5000 aims to be the most over the top, feature packed keybaord in e
   - Core Module
   - Numberpad Module
 - Small full HD multitouch display for GIF Selection and keyboard confiiration
-- USB 3.0 Hub
+- USB 3.0 Hub when USB is plugged in
 - 2 USB-C ports for downstream devices
 - 1 USB-A port for downstram devices
 - Huge Battery Capacity
